@@ -20,9 +20,12 @@ export const NavBar = () => {
         return () => window.removeEventListener("scroll", onScroll)
     }, [])
 
+    const onUpdateActiveLink = (value) => {
+        setActiveLink(value);
+    }
 
     return (
-        <Navbar expand = "lg" >
+        <Navbar expand = "lg"className = {scrolled ? "scrolled" : ""} >
             <Container>
                 <Navbar.Brand href = "#home"> <img src={''} alt="Logo" /> </Navbar.Brand>
                 
@@ -33,11 +36,11 @@ export const NavBar = () => {
 
                 <Navbar.Collapse id = "basic-navbar-nav">
                     <Nav className = "me-auto">
-                        <Nav.Link href = "#home">Home</Nav.Link>
-                        <Nav.Link href = "#skills">Skills</Nav.Link>
-                        <Nav.Link href = "#projects">Projects</Nav.Link>
-                        <Nav.Link href = "#art">Art</Nav.Link>
+                        <Nav.Link href = "#home" className = {activeLink == 'home' ? 'active navbrar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('home')}>Home</Nav.Link>
+                        <Nav.Link href = "#art" className = {activeLink == 'art' ? 'active navbrar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('art')}>Skills</Nav.Link>
+                        <Nav.Link href = "#projects" className = {activeLink == 'projects' ? 'active navbrar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                     </Nav>
+                    
                     //for social media --linkedin + mail
                     <span className="navbar-text">
                         <div className="social-icon">
