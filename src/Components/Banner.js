@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Container, Row, Col } from "reach-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../images/header-img.svg";
 
@@ -13,7 +13,7 @@ export const Banner = () => {
 
     useEffect(() => {
         let ticker = setInterval(() => {
-            ticker();
+            tick();
         }, delta)
 
         return() => { clearInterval(ticker)};
@@ -29,7 +29,7 @@ export const Banner = () => {
             setDelta(prevDelta => prevDelta / 2)
         }
 
-        if (isDeleting && updatedtext == fullText) {
+        if (isDeleting && updatedText == fullText) {
             setIsDeleting(true);
             setDelta(period);
         } else if (isDeleting && updatedText == '') {
@@ -49,9 +49,9 @@ export const Banner = () => {
                         <p> yada yada yada</p>
                         <button onClick={() => console.log('connect')}> Let's connect! <ArrowRightCircle size={25}/></button>
                     </Col>
-                    <col xs={12} md={6} xl={5}>
+                    <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alr="Header Img" />
-                    </col>
+                    </Col>
                 </Row>
             </Container>
         </section>
