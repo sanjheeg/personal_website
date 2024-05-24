@@ -9,6 +9,7 @@ import swiftSkill from "./../images/swiftSkill.png";
 import shellScriptingSkill from "./../images/shellScriptingSkill.png";
 import x86Skill from "./../images/x86Skill.png";
 import javaSkill from "./../images/javaSkill.png";
+import leftBackground from "../images/color-sharp.png";
 
 
 export const Skills = () => {
@@ -82,6 +83,7 @@ export const Skills = () => {
                 </Col>
                 </Row>
             </Container>
+            <img className="background-img-left" src={leftBackground}/>
         </section>
     )
 
