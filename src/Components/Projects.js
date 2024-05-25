@@ -1,7 +1,7 @@
 import projImg1 from "./../images/project-img1.png";
-import { Col, Container, Tab } from "react-bootstrap";
+import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import rightBackground from "./../images/color-sharp-2.png";
+import rightBackground from "./../images/color-sharp2.png";
 
 export const Projects = () => {
 
@@ -39,7 +39,7 @@ export const Projects = () => {
             <Row>
                 <Col>
                 <h2>Projects</h2>
-                <p> more yada </p>
+                
                 <Tab.Container id="project-tabs" defaultActiveKey="first">
                     <Nav variant="pills" defaultActiveKey="/home">
                         <Nav.Item>
@@ -48,10 +48,8 @@ export const Projects = () => {
                         <Nav.Item>
                             <Nav.Link eventKey="second">Tab Two</Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link eventKey="third">Tab Third</Nav.Link>
-                        </Nav.Item>
                     </Nav> 
+                    <p> more yada </p>
                 <Tab.Content>
                     <Tab.Pane eventKey="first">
                         <Row>
@@ -68,7 +66,6 @@ export const Projects = () => {
                         </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">seconnndddddd</Tab.Pane>
-                    <Tab.Pane eventKey="third">thiiirdddddd</Tab.Pane>
                 </Tab.Content>
                 </Tab.Container> 
                 </Col>
