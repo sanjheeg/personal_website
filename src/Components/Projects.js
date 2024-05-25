@@ -1,4 +1,7 @@
 import projImg1 from "./../images/project-img1.png";
+import { Col, Container, Tab } from "react-bootstrap";
+import { ProjectCard } from "./ProjectCard";
+import rightBackground from "./../images/color-sharp-2.png";
 
 export const Projects = () => {
 
@@ -55,7 +58,10 @@ export const Projects = () => {
                             {
                                 projects.map((project, index) => {
                                     return (
-                                        <p>{project.title}</p>
+                                        <ProjectCard
+                                        key={index}
+                                        {...project}
+                                        />
                                     )
                                 })
                             }
@@ -63,19 +69,12 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">seconnndddddd</Tab.Pane>
                     <Tab.Pane eventKey="third">thiiirdddddd</Tab.Pane>
-
-
                 </Tab.Content>
                 </Tab.Container> 
-                
                 </Col>
             </Row>
         </Container>
+        <img className="background-image-right" src={rightBackground}></img>
         </section>
     )
-
-
-
-
-
 }
