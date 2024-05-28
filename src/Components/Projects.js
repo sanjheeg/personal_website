@@ -2,6 +2,7 @@ import projImg1 from "./../images/project-img1.png";
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import rightBackground from "./../images/color-sharp2.png";
+import selfDrivingCar from "./../images/selfDrivingCar.png.webp"
 
 export const Projects = () => {
 
@@ -13,8 +14,8 @@ export const Projects = () => {
         },
         {
             title: "Donkey Car", 
-            description: "Converted an RC car to a self-driving car", 
-            imgUrl: projImg1
+            description: "Converted an RC car to a self-driving car. Full instructions can be found on my Instructable: https://www.instructables.com/Self-Driving-Car-2/", 
+            imgUrl: selfDrivingCar
         }, 
         {
             title: "OOTD: Outfit of the Day", 
@@ -29,7 +30,6 @@ export const Projects = () => {
     ];
 
     const inProgressProjects = [
-        
         {
             title: "Personal Website", 
             description: "A website built from Scratch", 
