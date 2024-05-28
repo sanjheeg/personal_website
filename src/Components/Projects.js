@@ -2,7 +2,7 @@ import projImg1 from "./../images/project-img1.png";
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import rightBackground from "./../images/color-sharp2.png";
-import selfDrivingCar from "./../images/selfDrivingCar.png.webp"
+import selfDrivingCar from "./../images/selfDrivingCar.png"
 
 export const Projects = () => {
 
