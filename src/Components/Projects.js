@@ -26,13 +26,28 @@ export const Projects = () => {
             title: "Marketplace", 
             description: "A Java GUI app that allows messaging between accounts and selling ", 
             imgUrl: projImg1
-        }
-    ];
-
-    const inProgressProjects = [
+        },
         {
             title: "Personal Website", 
             description: "A website built from Scratch", 
+            imgUrl: projImg1
+        }
+    ];
+
+    const completedNotes = [
+        {
+            title: "Data Structures and Algorithms", 
+            description: "can be found at: ", 
+            imgUrl: projImg1
+        },
+        {
+            title: "Systems Programming", 
+            description: "can be found at: ", 
+            imgUrl: projImg1
+        },
+        {
+            title: "Software Engineering", 
+            description: "can be found at: ", 
             imgUrl: projImg1
         }
     ];
@@ -42,15 +57,15 @@ export const Projects = () => {
         <Container>
             <Row>
                 <Col>
-                <h2>Projects</h2>
+                <h2>Projects & Notes</h2>
                 
                 <Tab.Container id="project-tabs" defaultActiveKey="first">
                     <Nav variant="pills" defaultActiveKey="/home">
                         <Nav.Item>
-                            <Nav.Link eventKey="first">Completed</Nav.Link>
+                            <Nav.Link eventKey="first">Projects</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="second">In Progress</Nav.Link>
+                            <Nav.Link eventKey="second">Notes</Nav.Link>
                         </Nav.Item>
                     </Nav> 
                     <p> more yada </p>
@@ -71,8 +86,8 @@ export const Projects = () => {
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
                         <Row>
-                            {
-                                inProgressProjects.map((project, index) => {
+                        {
+                                completedNotes.map((project, index) => {
                                     return (
                                         <ProjectCard
                                         key={index}
