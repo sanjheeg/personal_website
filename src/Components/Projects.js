@@ -5,17 +5,12 @@ import rightBackground from "./../images/color-sharp2.png";
 
 export const Projects = () => {
 
-    const projects = [
+    const completedProjects = [
         {
             title: "Shell", 
             description: "A shell Interpreter that mimics behavior of common command lines such as bash and csh", 
             imgUrl: projImg1
-        }, 
-        {
-            title: "Personal Website", 
-            description: "A website built from Scratch", 
-            imgUrl: projImg1
-        }, 
+        },
         {
             title: "Donkey Car", 
             description: "Converted an RC car to a self-driving car", 
@@ -33,6 +28,15 @@ export const Projects = () => {
         }
     ];
 
+    const inProgressProjects = [
+        
+        {
+            title: "Personal Website", 
+            description: "A website built from Scratch", 
+            imgUrl: projImg1
+        }
+    ];
+
     return (
         <section className="project" id="project">
         <Container>
@@ -43,10 +47,10 @@ export const Projects = () => {
                 <Tab.Container id="project-tabs" defaultActiveKey="first">
                     <Nav variant="pills" defaultActiveKey="/home">
                         <Nav.Item>
-                            <Nav.Link eventKey="first">Tab One</Nav.Link>
+                            <Nav.Link eventKey="first">Completed</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="second">Tab Two</Nav.Link>
+                            <Nav.Link eventKey="second">In Progress</Nav.Link>
                         </Nav.Item>
                     </Nav> 
                     <p> more yada </p>
@@ -54,7 +58,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="first">
                         <Row>
                             {
-                                projects.map((project, index) => {
+                                completedProjects.map((project, index) => {
                                     return (
                                         <ProjectCard
                                         key={index}
@@ -65,7 +69,20 @@ export const Projects = () => {
                             }
                         </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">seconnndddddd</Tab.Pane>
+                    <Tab.Pane eventKey="second">
+                        <Row>
+                            {
+                                inProgressProjects.map((project, index) => {
+                                    return (
+                                        <ProjectCard
+                                        key={index}
+                                        {...project}
+                                        />
+                                    )
+                                })
+                            }
+                        </Row>
+                    </Tab.Pane>
                 </Tab.Content>
                 </Tab.Container> 
                 </Col>
