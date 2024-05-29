@@ -505,14 +505,14 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
   z-index: -4;
 }
 
-/*art*/
-.art {
+/*baking*/
+.baking {
   padding: 0 0 50px 0;
   position: relative;
   background-image: url('./images/banner-bg.png');
 }
 
-.art-bx {
+.baking-bx {
   background: #121212;
   border-radius: 64px;
   text-align: center;
@@ -520,12 +520,12 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
   margin-top: -60px;
 }
 
-.art h2 {
+.baking h2 {
   font-size: 45px;
   font-weight: 700;
 }
 
-.art p {
+.baking p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -533,13 +533,13 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
   margin: 14px 0 75px 0;
 }
 
-.art-slider {
+.baking-slider {
   width: 80%;
   margin: 0 auto;
   position: relative;
 }
 
-.art-slider .item img {
+.baking-slider .item img {
   width: 50%;
   margin: 0 auto 15px auto;
 }
