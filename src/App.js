@@ -5,6 +5,7 @@ import { NavBar } from "./Components/NavBar";
 import { Banner } from "./Components/Banner";
 import { Skills } from "./Components/Skills";
 import { Projects } from "./Components/Projects";
+import { Certifications } from "./Components/Certifications.js"
 import { Baking } from "./Components/Baking.js"
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Certifications />
       <Baking />
     </div>
   );
