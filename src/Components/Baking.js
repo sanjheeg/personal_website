@@ -1,6 +1,11 @@
 import Carousel from "react-multi-carousel";
 import { Container, Col, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
+import vdayCupcakes from "./../images/vdayCupcakes.jpeg";
+import mangoLassi from "./../images/mangoLassi1.jpeg";
+import turkeyCupcakes from "./../images/turkeyCupcakes.jpeg";
+import christCookies from "./../images/christCookies.jpeg";
+import springCookies from "./../images/springCookies.jpeg";
 
 
 export const Baking = () => {
@@ -41,28 +46,28 @@ export const Baking = () => {
                             <h5>Peanut Butter and Chocolate Cake</h5>
                         </div>
                         <div className="item">
-                            <img src={pythonSkill} alt="Image" width="250"/> 
+                            <img src={mangoLassi} alt="Image" width="250"/> 
                             <h5>Mango Lassi Cheesecake</h5>
                         </div>
                         <div className="item">
-                            <img src={swiftSkill} alt="Image" width="250"/> 
+                            <img src={vdayCupcakes} alt="Image" width="250"/> 
                             <h5>Valentine's Day Cupcakes</h5>
                         </div>
                         <div className="item">
-                            <img src={shellScriptingSkill} alt="Image" width="250"/> 
+                            <img src={turkeyCupcakes} alt="Image" width="250"/> 
                             <h5>Turkey Cupcakes</h5>
                         </div>
                         <div className="item">
-                            <img src={cppSkill} alt="Image" width="250"/> 
+                            <img src={christCookies} alt="Image" width="250"/> 
                             <h5>Christmas Cookies</h5>
                         </div>
                         <div className="item">
-                            <img src={x86Skill} alt="Image" width="250"/> 
+                            <img src={springCookies} alt="Image" width="250"/> 
                             <h5>Spring break cookies</h5>
                         </div>
                         <div className="item">
                             <img src={cadSkill} alt="Image" width="250"/> 
-                            <h5>CAD</h5>
+                            <h5>Chocolate Fruit Cake</h5>
                         </div>
                     </Carousel>
                 </div>
