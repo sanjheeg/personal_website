@@ -77,7 +77,7 @@ export const certifications = () => {
                 <Col>
                 <h2>Certificationss</h2>
                 
-                <Tab.Container id="certifications-tabs" defaultActiveKey="first">
+                <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" defaultActiveKey="/home">
                         <Nav.Item>
                             <Nav.Link eventKey="first">C and Linux</Nav.Link>
