@@ -32,9 +32,9 @@ html {
 body {
   font-weight: 400;
   overflow-x: hidden;
-  /*position: relative;*/
-  background-color: #AA367C !important;
-  /*background-image: url('./images/banner-bg.png');*/
+  position: relative;
+  /*background-color: #AA367C !important;*/
+  background-image: url('./images/banner-bg.png');
   /*121212*/
   color: #fff !important;
   font-family: 'Centra', sans-serif !important; 
@@ -337,7 +337,6 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  background-image: url('./images/color-sharp2.png')
 }
 
 .skill-bx {
@@ -384,9 +383,10 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  /*background-image: url('./images/banner-bg.png');*/
-  background-color: black;
+  background-image: url('./images/banner-bg.png');
+  /*background-color: black;*/
 }
+
 .project h2 {
 	font-size: 45px;
 	font-weight: 700;
@@ -581,7 +581,7 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .baking {
   padding: 0 0 50px 0;
   position: relative;
-  background-image: url('./images/color-sharp.png');
+  /*background-image: url('./images/banner-bg.png');*/
 }
 
 .baking-bx {
