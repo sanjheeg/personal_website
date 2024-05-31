@@ -4,7 +4,7 @@ import { ProjectCard } from "./ProjectCard";
 import rightBackground from "./../images/color-sharp2.png";
 import selfDrivingCar from "./../images/selfDrivingCar.png"
 
-export const certifications = () => {
+export const Certifications = () => {
 
     const cCerts = [
         {
