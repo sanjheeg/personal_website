@@ -3,6 +3,14 @@ import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import rightBackground from "./../images/color-sharp2.png";
 import selfDrivingCar from "./../images/selfDrivingCar.png"
+import c1 from "./../images/c1.png";
+import c2 from "./../images/c2.png";
+import c3 from "./../images/c3.png";
+import c4 from "./../images/c4.png";
+import c5 from "./../images/c5.png";
+import c6 from "./../images/c6.png";
+import cad1 from "./../images/cad1.png";
+import cad2 from "./../images/cad2.png";
 
 export const Certifications = () => {
 
@@ -10,32 +18,32 @@ export const Certifications = () => {
         {
             title: "C Programming: Getting Started", 
             issued: "Issued by edX in", 
-            imgUrl: projImg1
+            imgUrl: c1
         },
         {
             title: "C Programming: Language Foundations", 
             issued: "Issued by edX in",
-            imgUrl: selfDrivingCar
+            imgUrl: c2
         }, 
         {
             title: "C Programming: Advanced Data Types", 
             issued: "Issued by edX in",
-            imgUrl: projImg1
+            imgUrl: c3
         }, 
         {
             title: "C Programming: Modular Prorgramming and Memory Management", 
             issued: "Issued by edX in",
-            imgUrl: projImg1
+            imgUrl: c4
         },
         {
             title: "C Programming:Pointers and Memory Management", 
             issued: "Issued by edX in",
-            imgUrl: projImg1
+            imgUrl: c5
         },
         {
             title: "Linux Basics: The Command Line Interface", 
             issued: "Issued by edX in",
-            imgUrl: projImg1
+            imgUrl: c6
         }
     ];
 
@@ -43,12 +51,12 @@ export const Certifications = () => {
         {
             title: "OnShape: CAD", 
             issued: "Issued by OnShape in ", 
-            imgUrl: projImg1
+            imgUrl: cad2
         },
         {
             title: "OnShape: Data Management", 
             issued: "Issued by OnShape in", 
-            imgUrl: projImg1
+            imgUrl: cad1
         }
     ];
 
@@ -86,7 +94,7 @@ export const Certifications = () => {
                             <Nav.Link eventKey="second">CAD</Nav.Link>
                         </Nav.Item>
                         <Nav.Item>
-                            <Nav.Link eventKey="second">Graph Databases</Nav.Link>
+                            <Nav.Link eventKey="third">Graph Databases</Nav.Link>
                         </Nav.Item>
                     </Nav> 
                     <p> more yada </p>
