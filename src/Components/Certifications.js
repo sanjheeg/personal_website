@@ -71,7 +71,7 @@ export const Certifications = () => {
     ];
 
     return (
-        <section className="certifications" id="certification">
+        <section className="certification" id="certification">
         <Container>
             <Row>
                 <Col>
@@ -119,7 +119,7 @@ export const Certifications = () => {
                             }
                         </Row>
                     </Tab.Pane>
-                    <Tab.Pane eventKey="second">
+                    <Tab.Pane eventKey="third">
                         <Row>
                         {
                                 graphCerts.map((project, index) => {
