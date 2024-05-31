@@ -33,7 +33,7 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #AA367C !important;
+  background-color: #121212 !important;
   /*background-image: url('./images/background.png');*/
   /*121212*/
   color: #fff !important;
@@ -273,7 +273,7 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 260px 0 100px 0;
-  /*background-image: url('./images/banner-bg.png');*/
+  background-image: url('./images/banner-bg.png');
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -354,7 +354,7 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  background-image: url('./images/color-sharp2.png');
+  /*background-image: url('./images/color-sharp2.png');*/
 }
 
 .skill-bx {
@@ -401,7 +401,7 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .project {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #121212;
 }
 
 .project h2 {
@@ -599,7 +599,7 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
   overflow: hidden;
 }
 .certification .nav.nav-pills .nav-item {
-  width: 50%;
+  width: 33.333333333%;
 }
 .certification .nav.nav-pills .nav-link {
   background-color: transparent;
@@ -637,6 +637,11 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
   border-radius: 55px 0px 0px 55px;
 }
 .nav-link#certifications-tabs-tab-second {
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.nav-link#certifications-tabs-tab-third {
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
