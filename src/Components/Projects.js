@@ -3,6 +3,13 @@ import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import rightBackground from "./../images/color-sharp2.png";
 import selfDrivingCar from "./../images/selfDrivingCar.png"
+import shell from "./../images/shell.png";
+import OOTD from "./../images/OOTD.png";
+import website from "./../images/website.png";
+import cs251 from "./../images/251.png";
+import cs252 from "./../images/252.png";
+import cs180 from "./../images/180.png";
+import cs240 from "./../images/240.png";
 
 export const Projects = () => {
 
@@ -10,7 +17,7 @@ export const Projects = () => {
         {
             title: "Shell", 
             description: "A shell Interpreter that mimics behavior of common command lines such as bash and csh", 
-            imgUrl: projImg1
+            imgUrl: shell
         },
         {
             title: "Donkey Car", 
@@ -20,7 +27,7 @@ export const Projects = () => {
         {
             title: "OOTD: Outfit of the Day", 
             description: "A virtual closet with marketplace and social features", 
-            imgUrl: projImg1
+            imgUrl: OOTD
         }, 
         {
             title: "Marketplace", 
@@ -30,26 +37,33 @@ export const Projects = () => {
         {
             title: "Personal Website", 
             description: "A website built from Scratch", 
-            imgUrl: projImg1
+            imgUrl: website
         }
     ];
 
     const completedNotes = [
         {
+            title: "Object-Oriented Programming in Java", 
+            description: "can be found at: ", 
+            imgUrl: cs180
+        },
+        {
+            title: "Programming in C", 
+            description: "can be found at: ", 
+            imgUrl: cs240
+        },
+        {
             title: "Data Structures and Algorithms", 
             description: "can be found at: ", 
-            imgUrl: projImg1
+            imgUrl: cs251
         },
         {
             title: "Systems Programming", 
             description: "can be found at: ", 
-            imgUrl: projImg1
-        },
-        {
-            title: "Software Engineering", 
-            description: "can be found at: ", 
-            imgUrl: projImg1
+            imgUrl: cs252
         }
+        
+        
     ];
 
     return (
@@ -58,7 +72,8 @@ export const Projects = () => {
             <Row>
                 <Col>
                 <h2>Projects & Notes</h2>
-                
+                <p></p>
+                <p> I believe that projects are an excellent way to learn </p>
                 <Tab.Container id="project-tabs" defaultActiveKey="first">
                     <Nav variant="pills" defaultActiveKey="/home">
                         <Nav.Item>
@@ -68,7 +83,7 @@ export const Projects = () => {
                             <Nav.Link eventKey="second">Notes</Nav.Link>
                         </Nav.Item>
                     </Nav> 
-                    <p> more yada </p>
+                   <p></p>
                 <Tab.Content>
                     <Tab.Pane eventKey="first">
                         <Row>
