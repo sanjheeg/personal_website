@@ -99,7 +99,6 @@ nav.navbar {
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
-  
 }
 
 nav.navbar a.navbar-brand {
@@ -108,14 +107,13 @@ nav.navbar a.navbar-brand {
 }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
-  font-weight: 400;
+  font-weight: 900;
   color: #fff !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   margin-top: 9px;
   font-size: 18px;
   opacity: 0.50;
-  
 }
 
 nav.navbar .navbar-nav a.nav-link.navbar-link.hover 
@@ -123,11 +121,12 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   opacity: 1;
 }
 
-
 span.navbar-text {
   display: inline-block;
   margin-left: 14px;
 }
+
+
 
 .social-icon a {
   width: 42px;
@@ -167,7 +166,7 @@ span.navbar-text {
   filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(345deg) brightness(95%) contrast(86%);
 }
 
-navbar-text button {
+.navbar-text button {
   font-weight: 700;
   color: #666;
   border: 1px solid #fff;
@@ -190,7 +189,7 @@ navbar-text button {
   height: 100%;
   
   position: absolute;
-  /*background-color: transparent;*/
+  background-color: pink;
   left: 0;
   top: 0;
   z-index: -1;
@@ -238,7 +237,6 @@ nav.navbar .navbar-toggler-icon:before {
   width: 24px;
   position: absolute;
   height: 2px;
-  
   background-color: #fff;
   top: 0;
   left: 0;
@@ -249,7 +247,6 @@ nav.navbar .navbar-toggler-icon:before {
 
 nav.navbar .navbar-toggler-icon:after {
   top: 8px;
-  
 }
 
 nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:after {
@@ -354,11 +351,11 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .skill {
   padding: 0 0 50px 0;
   position: relative;
-  /*background-image: url('./images/color-sharp2.png');*/
+  /*background-image: url('./images/back.png');*/
 }
 
 .skill-bx {
-  background: #121212;
+  background: #121000;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -402,6 +399,7 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
   padding: 80px 0;
   position: relative;
   background-color: #121212;
+  background-image: url("./images/back.png")
 }
 
 .project h2 {
@@ -530,7 +528,7 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .baking {
   padding: 0 0 50px 0;
   position: relative;
-  background-image: url('./images/color-sharp.png');
+  background-image: url('./images/back.png');
 }
 
 .baking-bx {
@@ -577,7 +575,7 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 .certification {
   padding: 80px 0;
   position: relative;
-  background-color: black;
+  background-color: #121000;
 }
 .certification h2 {
 	font-size: 45px;
