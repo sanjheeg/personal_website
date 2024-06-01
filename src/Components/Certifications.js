@@ -17,32 +17,32 @@ export const Certifications = () => {
     const cCerts = [
         {
             title: "C Programming: Getting Started", 
-            issued: "Issued by edX in", 
+            description: "Issued by edX in", 
             imgUrl: c1
         },
         {
             title: "C Programming: Language Foundations", 
-            issued: "Issued by edX in",
+            description: "Issued by edX in",
             imgUrl: c2
         }, 
         {
             title: "C Programming: Advanced Data Types", 
-            issued: "Issued by edX in",
+            description: "Issued by edX in",
             imgUrl: c3
         }, 
         {
             title: "C Programming: Modular Prorgramming and Memory Management", 
-            issued: "Issued by edX in",
+            description: "Issued by edX in",
             imgUrl: c4
         },
         {
             title: "C Programming:Pointers and Memory Management", 
-            issued: "Issued by edX in",
+            description: "Issued by edX in",
             imgUrl: c5
         },
         {
             title: "Linux Basics: The Command Line Interface", 
-            issued: "Issued by edX in",
+            description: "Issued by edX in",
             imgUrl: c6
         }
     ];
@@ -50,12 +50,12 @@ export const Certifications = () => {
     const cadCerts = [
         {
             title: "OnShape: CAD", 
-            issued: "Issued by OnShape in ", 
+            description: "Issued by OnShape in ", 
             imgUrl: cad2
         },
         {
             title: "OnShape: Data Management", 
-            issued: "Issued by OnShape in", 
+            description: "Issued by OnShape in", 
             imgUrl: cad1
         }
     ];
@@ -83,8 +83,8 @@ export const Certifications = () => {
         <Container>
             <Row>
                 <Col>
-                <h2>Certificationss</h2>
-                
+                <h2>Certifications</h2>
+                <p> I am a learner and take initiative to learn new concepts outside of the classroom.  </p>
                 <Tab.Container id="certifications-tabs" defaultActiveKey="first">
                     <Nav variant="pills" defaultActiveKey="/home">
                         <Nav.Item>
@@ -97,7 +97,7 @@ export const Certifications = () => {
                             <Nav.Link eventKey="third">Graph Databases</Nav.Link>
                         </Nav.Item>
                     </Nav> 
-                    <p> more yada </p>
+                    <p></p>
                 <Tab.Content>
                     <Tab.Pane eventKey="first">
                         <Row>
