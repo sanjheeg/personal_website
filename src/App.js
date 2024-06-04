@@ -7,6 +7,7 @@ import { Skills } from "./Components/Skills";
 import { Projects } from "./Components/Projects";
 import { Certifications } from "./Components/Certifications.js"
 import { Baking } from "./Components/Baking.js"
+import { Experience } from './Components/Experience.js';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Banner />
       <Skills />
       <Projects />
+      <Experience />
       <Certifications />
       <Baking />
     </div>
