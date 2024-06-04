@@ -13,7 +13,10 @@ export const Experience = () => {
                 <div className="skill-bx">
                     <h2> Experience </h2>
                     <h3>Sofware Engineering Intern </h3>
-                    <h4>Cisco</h4>
+                    <h4>Cisco - San Jose, California (on-site)</h4>
+                    <p>- work with people</p>
+                    <h3>Director</h3>
+                    <h4>BoilerMake - West Lafayette, Indiana (on-site)</h4>
                     <p>- work with people</p>
 
                 </div>
