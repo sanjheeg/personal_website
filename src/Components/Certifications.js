@@ -146,7 +146,6 @@ export const Certifications = () => {
                 </Col>
             </Row>
         </Container>
-        <img className="background-image-right" src={rightBackground}></img>
         </section>
     )
 }
