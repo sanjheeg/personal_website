@@ -9,7 +9,7 @@ export const NavBar = () => {
     const handleIconClick = (url) => {
         window.location.href = url;
     };
-    
+
     const [activeLink, setActiveLink] = useState('home');
 
     /*see if user has scrolled to change bcknd */
@@ -59,7 +59,10 @@ export const NavBar = () => {
                         <div className="social-icon">
                             <a href="#" onClick={(e) => { e.preventDefault(); handleIconClick('https://www.linkedin.com/in/sanjhee-gupta/'); }}>
                                 <img src={navIcon1} alt="" />
-                            </a>    
+                            </a>   
+                            <a href="mailto:gupta851@purdue.edu">
+                                <img src={navIcon2} alt="" />
+                            </a> 
                             <a href="#"><img src={navIcon2} alt="" /></a>
                             <a href="#"><img src={navIcon3} alt="" /></a>
                         </div>
