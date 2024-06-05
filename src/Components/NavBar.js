@@ -2,8 +2,8 @@ import { useState,useEffect } from "react"
 import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../images/logo.svg";
 import navIcon1 from "../images/nav-icon1.svg";
-import navIcon2 from "../images/nav-icon2.svg";
-import navIcon3 from "../images/nav-icon3.svg";
+import navIcon2 from "../images/email.png";
+import navIcon3 from "../images/github.png";
 
 export const NavBar = () => {
     const handleIconClick = (url) => {
@@ -63,7 +63,6 @@ export const NavBar = () => {
                             <a href="mailto:gupta851@purdue.edu">
                                 <img src={navIcon2} alt="" />
                             </a> 
-                            <a href="#"><img src={navIcon2} alt="" /></a>
                             <a href="#"><img src={navIcon3} alt="" /></a>
                         </div>
                     </span>
