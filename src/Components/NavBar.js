@@ -3,7 +3,7 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import logo from "../images/logo.svg";
 import navIcon1 from "../images/nav-icon1.svg";
 import navIcon2 from "../images/email.svg";
-import navIcon3 from "../images/github.png";
+import navIcon3 from "../images/github.svg";
 
 export const NavBar = () => {
     const handleIconClick = (url) => {
