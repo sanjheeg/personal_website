@@ -101,6 +101,10 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 
+.navbar-link.active {
+  color: red; /* color for active link */
+}
+
 nav.navbar a.navbar-brand {
   width: 9%;
   
@@ -681,5 +685,4 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   text-align: left;
-  width: 56%;
 }
