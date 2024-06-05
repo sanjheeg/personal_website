@@ -21,7 +21,7 @@ export const Experience = () => {
                     <p>- Developed APIs enabling TAC to send advisory notifications to vManage clients.</p>
                     <p>- Designed customizable notifications based on parameters such as duration and urgency.</p>
                     <p>- Contributed to both backend and software development, ensuring the feature's integration as a permanent addition in the product's next release.</p>
-                    <p></p>
+                    <h3></h3>
 
                     
                     <h3>BoilerMake - West Lafayette, Indiana (on-site)</h3>
@@ -34,7 +34,7 @@ export const Experience = () => {
                     <h5>March 2023 - January 2024</h5>
                     <p>- Purdue University's premier hackathon event, spanning 36 hours at the start of the Spring semester.</p>
                     <p>- Collaborate with a team of 7 sponsorship committee members to engage and secure financial support from over 350 prominent companies.</p>
-                    <p></p>
+                    <h3></h3>
                     
 
                     <h3>The Data Mine - West Lafayette, Indiana (on-site)</h3>
@@ -44,7 +44,7 @@ export const Experience = () => {
                     <p>- Answered over 500 questions posted by students on Piazza, the online forum used by the TDM classes, during the Spring 2024 semester.</p>
                     <p>- Conduct regular office hours, providing one-on-one and group assistance to students working on weekly projects involving R, Python, Bash, and SQL.</p>
                     <p>- Review and assess projects in advance, proactively identifying potential issues and devising effective solutions.</p>
-                    <p></p>
+                    <h3></h3>
 
 
                     <h3>The Data Mine - West Lafayette, Indiana (on-site)</h3>
@@ -53,7 +53,7 @@ export const Experience = () => {
                     <p>- Collaborated with Renzoe Box to improve their color smart matching program.</p>
                     <p>- Conducted web scraping to gather essential data, utilizing it to train advanced algorithms aimed at precise customer skin-tone matching with Renzoe Box foundation products.</p>
                     <p>- Worked closely within a 10-member team to efficiently complete assigned tasks, ensuring successful project delivery.</p>
-                    <p></p>
+                    <h3></h3>
 
 
                     <h3>Coding Tomorrow Initiative - Fremont, California (online)</h3>
@@ -63,7 +63,7 @@ export const Experience = () => {
                     <p>- Developed curriculum and instructed over 700 students in programming languages, including Scratch, Scratch Jr., C, Java, Python (Beginner and Advanced), and Competitive Programming.</p>
                     <p>- Oversaw registration processes, delegated responsibilities to fellow officers, managed social media presence, and supervised the creation of the organization's website (irvingtoncti.org).</p>
                     <p>- Led a 7-member office team in successfully organizing various events, including fundraisers and an online hackathon</p>
-
+                    <h3></h3>
 
                     <h3>Girls Who Code</h3>
                     <h4>President</h4>
@@ -75,6 +75,7 @@ export const Experience = () => {
                     <h5>June 2021 - June 2022</h5>
                     <p>- Conducted weekly lesson plans for Python and taught it to club members, alongside live code demos</p>
                     <p>- Took meeting notes for all club and officer meetings</p>
+                    <h3></h3>
 
                 </div>
                 </div>
