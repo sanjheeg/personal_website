@@ -661,14 +661,14 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 }
 
 .experience h3 {
-	font-size: 35px;
+	font-size: 27px;
 	font-weight: 700;
   text-align: left;
   color:#61dafb;
 }
 
 .experience h4 {
-  font-size: 27px;
+  font-size: 23px;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.1em;
@@ -685,8 +685,9 @@ nav.navbar .navbar-toggler[aria-aexpanded="true"] .navbar-toggler-icon {
 }
 
 .experience p {
-  color: #B8B8B8;
+  /*color: #B8B8B8;*/
   font-size: 18px;
+  font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   text-align: left;
