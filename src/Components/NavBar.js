@@ -6,6 +6,10 @@ import navIcon2 from "../images/nav-icon2.svg";
 import navIcon3 from "../images/nav-icon3.svg";
 
 export const NavBar = () => {
+    const handleIconClick = (url) => {
+        window.location.href = url;
+    };
+    
     const [activeLink, setActiveLink] = useState('home');
 
     /*see if user has scrolled to change bcknd */
