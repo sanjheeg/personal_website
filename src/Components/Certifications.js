@@ -11,6 +11,9 @@ import c5 from "./../images/c5.png";
 import c6 from "./../images/c6.png";
 import cad1 from "./../images/cad1.png";
 import cad2 from "./../images/cad2.png";
+import graph1 from "./images/graph1.png";
+import graph2 from "./images/graph2.png";
+import graph3 from "./images/graph3.png";
 
 export const Certifications = () => {
 
@@ -62,19 +65,19 @@ export const Certifications = () => {
 
     const graphCerts = [
         {
-            title: "Data Structures and Algorithms", 
-            description: "can be found at: ", 
-            imgUrl: projImg1
+            title: "Neo4j Fundamentals", 
+            description: "Issued by Neo4j in May 2024", 
+            imgUrl: graph1
         },
         {
-            title: "Systems Programming", 
-            description: "can be found at: ", 
-            imgUrl: projImg1
+            title: "Cypher Fundamentals", 
+            description: "Issued by Neo4j in May 2024", 
+            imgUrl: graph2
         },
         {
-            title: "Software Engineering", 
-            description: "can be found at: ", 
-            imgUrl: projImg1
+            title: "Graph Data Modeling Fundamentals", 
+            description: "Issued by Neo4j in June 2024", 
+            imgUrl: graph3
         }
     ];
 
