@@ -101,10 +101,6 @@ nav.navbar.scrolled {
   background-color: #121212;
 }
 
-.navbar-link.active {
-  color: red; /* color for active link */
-}
-
 nav.navbar a.navbar-brand {
   width: 9%;
   
