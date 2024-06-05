@@ -11,9 +11,9 @@ import c5 from "./../images/c5.png";
 import c6 from "./../images/c6.png";
 import cad1 from "./../images/cad1.png";
 import cad2 from "./../images/cad2.png";
-import graph1 from "./images/graph1.png";
-import graph2 from "./images/graph2.png";
-import graph3 from "./images/graph3.png";
+import graph1 from "./../images/graph1.png";
+import graph2 from "./../images/graph2.png";
+import graph3 from "./../images/graph3.png";
 
 export const Certifications = () => {
 
