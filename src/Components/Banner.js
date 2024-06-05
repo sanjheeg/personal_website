@@ -50,7 +50,8 @@ export const Banner = () => {
                             and Data Science. Outside of my interest in the STEM field, I enjoy trying new coffee shops, 
                             painting, scrapbooking, playing badminton, and baking!
                             </p>
-                        <button onClick={() => console.log('connect')}> Let's connect! <ArrowRightCircle size={25}/></button>
+                        <button onClick={() => { e.preventDefault(); handleIconClick('https://www.linkedin.com/in/sanjhee-gupta/'); }}> Let's connect! <ArrowRightCircle size={25}/></button>
+                        
                     </Col>
                     <Col xs={12} md={6} xl={5}>
                         <img src={headerImg} alr="Header Img" />
