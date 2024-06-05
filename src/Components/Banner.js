@@ -4,6 +4,9 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import headerImg from "../images/sanjheePic.jpeg";
 
 export const Banner = () => {
+    const handleIconClick = (url) => {
+        window.location.href = url;
+    };
     const [loopNum, setLoopNum] = useState(0);
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = [ "I'm Sanjhee Gupta!", "Web Designer", "UI/UX Designer"];
@@ -50,7 +53,7 @@ export const Banner = () => {
                             and Data Science. Outside of my interest in the STEM field, I enjoy trying new coffee shops, 
                             painting, scrapbooking, playing badminton, and baking!
                             </p>
-                        <button onClick={() => { e.preventDefault(); handleIconClick('https://www.linkedin.com/in/sanjhee-gupta/'); }}> Let's connect! <ArrowRightCircle size={25}/></button>
+                        <button onClick={(e) => { e.preventDefault(); handleIconClick('https://www.linkedin.com/in/sanjhee-gupta/'); }}> Let's connect! <ArrowRightCircle size={25}/></button>
                         
                     </Col>
                     <Col xs={12} md={6} xl={5}>
