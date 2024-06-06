@@ -77,6 +77,22 @@ export const Experience = () => {
                     <p>- Took meeting notes for all club and officer meetings</p>
                     <br></br>
 
+                    <h3>Irvington Robotics Academy</h3>
+                    <h4>President</h4>
+                    <h5>March 2021 - June 2022</h5>
+                    <p></p>
+                    <h4>Team Captain</h4>
+                    <h5>February 2021 - June 2022</h5>
+                    <p></p>
+                    <h4>Outreach Officer</h4>
+                    <h5>April 2020 - April 2021</h5>
+                    <p></p>
+                    <h4>Team Member</h4>
+                    <h5>June 2019 - January 2021</h5>
+                    <p></p>
+                    
+                    <br></br>
+
                 </div>
                 </div>
                 </div>
