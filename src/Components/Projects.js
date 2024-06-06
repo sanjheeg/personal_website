@@ -73,7 +73,7 @@ export const Projects = () => {
                 <Col>
                 <h2>Projects & Notes</h2>
                 <p></p>
-                <p> I believe that projects are an excellent way to learn </p>
+                
                 <Tab.Container id="project-tabs" defaultActiveKey="first">
                     <Nav variant="pills" defaultActiveKey="/home">
                         <Nav.Item>
@@ -87,6 +87,7 @@ export const Projects = () => {
                 <Tab.Content>
                     <Tab.Pane eventKey="first">
                         <Row>
+                        <p> I believe that projects are an excellent way to learn </p>
                             {
                                 completedProjects.map((project, index) => {
                                     return (
@@ -100,6 +101,7 @@ export const Projects = () => {
                         </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
+                        <p>Here are some notes I've taken for my classes</p>
                         <Row>
                         {
                                 completedNotes.map((project, index) => {
