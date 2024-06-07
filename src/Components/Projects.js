@@ -88,7 +88,7 @@ export const Projects = () => {
                 <Tab.Content>
                     <Tab.Pane eventKey="first">
                         <Row>
-                        <p> I believe that projects are an excellent way to learn </p>
+                        
                             {
                                 completedProjects.map((project, index) => {
                                     return (
