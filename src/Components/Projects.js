@@ -1,4 +1,3 @@
-import { useState,useEffect } from "react"
 import projImg1 from "./../images/project-img1.png";
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
@@ -121,7 +120,7 @@ export const Projects = () => {
                 </Col>
             </Row>
         </Container>
-        <img className="background-image-right" src={rightBackground}></img>
+        <img className="background-image-right" src={rightBackground} alt='background img'></img>
         </section>
     )
 }

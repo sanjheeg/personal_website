@@ -1,8 +1,5 @@
-import projImg1 from "./../images/project-img1.png";
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import rightBackground from "./../images/color-sharp2.png";
-import selfDrivingCar from "./../images/selfDrivingCar.png"
 import c1 from "./../images/c1.png";
 import c2 from "./../images/c2.png";
 import c3 from "./../images/c3.png";

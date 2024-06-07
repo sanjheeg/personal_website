@@ -1,8 +1,4 @@
-
-import { Container, Col, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
-
-
 
 export const Experience = () => {
     return (
