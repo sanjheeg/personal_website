@@ -74,13 +74,13 @@ export const NavBar = () => {
                     
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <button href="#" onClick={(e) => { e.preventDefault(); handleIconClick('https://www.linkedin.com/in/sanjhee-gupta/'); }}>
+                            <a href="javascript:void(0);" onClick={(e) => { e.preventDefault(); handleIconClick('https://www.linkedin.com/in/sanjhee-gupta/'); }}>
                                 <img src={navIcon1} alt="" />
-                            </button>   
-                            <button href="mailto:gupta851@purdue.edu">
+                            </a>   
+                            <a href="mailto:gupta851@purdue.edu">
                                 <img src={navIcon2} alt="" />
-                            </button> 
-                            <button href="#"><img src={navIcon3} alt="" /></button>
+                            </a> 
+                            <a href="javascript:void(0);"><img src={navIcon3} alt="" /></a>
                         </div>
                     </span>
                 </Navbar.Collapse>
