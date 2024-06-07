@@ -63,24 +63,24 @@ export const NavBar = () => {
 
                 <Navbar.Collapse id = "basic-navbar-nav">
                     <Nav className = "me-auto">
-                        <Nav.Link href = "#home" className = {activeLink == 'home' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('home') }>Home</Nav.Link>
-                        <Nav.Link href = "#skills" className = {activeLink == 'skills' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                        <Nav.Link href = "#project" className = {activeLink == 'projects' ? 'active navbar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
-                        <Nav.Link href = "#experience" className = {activeLink == 'experience' ? 'active navbar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
-                        <Nav.Link href = "#certification" className = {activeLink == 'certifications' ? 'active navbar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('certifications')}>Certifications</Nav.Link>
-                        <Nav.Link href = "#bakes" className = {activeLink == 'baking' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('baking')}>Baking</Nav.Link>
+                        <Nav.Link href = "#home" className = {activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('home') }>Home</Nav.Link>
+                        <Nav.Link href = "#skills" className = {activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                        <Nav.Link href = "#project" className = {activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
+                        <Nav.Link href = "#experience" className = {activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('experience')}>Experience</Nav.Link>
+                        <Nav.Link href = "#certification" className = {activeLink === 'certifications' ? 'active navbar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('certifications')}>Certifications</Nav.Link>
+                        <Nav.Link href = "#bakes" className = {activeLink === 'baking' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('baking')}>Baking</Nav.Link>
                     </Nav>
                     
                     
                     <span className="navbar-text">
                         <div className="social-icon">
-                            <a href="#" onClick={(e) => { e.preventDefault(); handleIconClick('https://www.linkedin.com/in/sanjhee-gupta/'); }}>
+                            <button href="#" onClick={(e) => { e.preventDefault(); handleIconClick('https://www.linkedin.com/in/sanjhee-gupta/'); }}>
                                 <img src={navIcon1} alt="" />
-                            </a>   
-                            <a href="mailto:gupta851@purdue.edu">
+                            </button>   
+                            <button href="mailto:gupta851@purdue.edu">
                                 <img src={navIcon2} alt="" />
-                            </a> 
-                            <a href="#"><img src={navIcon3} alt="" /></a>
+                            </button> 
+                            <button href="#"><img src={navIcon3} alt="" /></button>
                         </div>
                     </span>
                 </Navbar.Collapse>

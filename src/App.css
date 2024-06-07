@@ -129,7 +129,7 @@ span.navbar-text {
 }
 
 
-.social-icon a {
+.social-icon button {
   width: 42px;
   height: 42px;
   background: rgba(217, 217, 217, 0.1);
@@ -142,7 +142,7 @@ span.navbar-text {
   border: 1px solif rgba(255, 255, 255, 0.5);
 }
 
-.social-icon a::before {
+.social-icon button::before {
   content: "";
   width: 42px;
   height: 42px;
@@ -153,17 +153,17 @@ span.navbar-text {
   transition: 0.3s ease-in-out;
 }
 
-.social-icon a:hover::before {
+.social-icon button:hover::before {
   transform: scale(1);
 }
 
-.social-icon a img {
+.social-icon button img {
   width: 40%;
   z-index: 1;
   transition: 0.3s ease-in-out;
 }
 
-.social-icon a:hover img {
+.social-icon button:hover img {
   filter: brightness(50%) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rotate(345deg) brightness(95%) contrast(86%);
 }
 
