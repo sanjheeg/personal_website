@@ -1,3 +1,4 @@
+import { useState,useEffect } from "react"
 import projImg1 from "./../images/project-img1.png";
 import { Col, Container, Tab, Row, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";

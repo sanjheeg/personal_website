@@ -4,6 +4,7 @@ import logo from "../images/logo.svg";
 import navIcon1 from "../images/nav-icon1.svg";
 import navIcon2 from "../images/email.svg";
 import navIcon3 from "../images/github.png";
+import favicon from "../images/logo.png";
 
 export const NavBar = () => {
     const handleIconClick = (url) => {
@@ -29,6 +30,22 @@ export const NavBar = () => {
         return () => window.removeEventListener("scroll", onScroll)
     }, [])
 
+    // Function to update the favicon
+    const updateFavicon = (icon) => {
+        let link = document.querySelector("link[rel~='icon']");
+        if (!link) {
+            link = document.createElement("link");
+            link.rel = "icon";
+            document.head.appendChild(link);
+        }
+        link.href = icon;
+    };
+
+    useEffect(() => {
+        document.title = "⭐️ Sanjhee Gupta";
+        updateFavicon(favicon);
+    }, []);
+
     const onUpdateActiveLink = (value) => {
         setActiveLink(value);
     }
@@ -46,7 +63,7 @@ export const NavBar = () => {
 
                 <Navbar.Collapse id = "basic-navbar-nav">
                     <Nav className = "me-auto">
-                        <Nav.Link href = "#home" className = {activeLink == 'home' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('home')}>Home</Nav.Link>
+                        <Nav.Link href = "#home" className = {activeLink == 'home' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('home') }>Home</Nav.Link>
                         <Nav.Link href = "#skills" className = {activeLink == 'skills' ? 'active navbar-link' : 'navbar-link'} onClick = {() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href = "#project" className = {activeLink == 'projects' ? 'active navbar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                         <Nav.Link href = "#experience" className = {activeLink == 'experience' ? 'active navbar-link' : 'navbar-link'}  onClick = {() => onUpdateActiveLink('experience')}>Experience</Nav.Link>

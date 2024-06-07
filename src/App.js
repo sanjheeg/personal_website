@@ -10,7 +10,7 @@ import { Baking } from "./Components/Baking.js"
 import { Experience } from './Components/Experience.js';
 
 function App() {
-  return (
+  return (  
     <div className="App">
       <NavBar />
       <Banner />
