@@ -20,7 +20,7 @@ export const Experience = () => {
                     <p>○ Worked with Cisco's Catalyst SD-WAN team on their Network Management System product vManage</p>
                     <p>○ Developed APIs enabling TAC to send advisory notifications to vManage clients.</p>
                     <p>○ Designed customizable notifications based on parameters such as duration and urgency.</p>
-                    <p>○ Contributed to both backend and software development, ensuring the feature's integration as a permanent addition in the product's next release.</p>
+                    <p>○ Contributed to both backend and frontend, ensuring the feature's integration as a permanent addition in the product's next release.</p>
                     <br></br>
 
                     
