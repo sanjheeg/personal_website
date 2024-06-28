@@ -1,5 +1,4 @@
 import Carousel from "react-multi-carousel";
-import { Container, Col, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import vdayCupcakes from "./../images/vdayCupcakes.jpeg";
 import mangoLassi from "./../images/mangoLassi.png";
@@ -43,39 +42,39 @@ export const Baking = () => {
                     <p></p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
-                            <img src={tiramisu} alt="Image"/> 
+                            <img src={tiramisu} alt="baking img"/> 
                             <h5>Tiramisu</h5>
                         </div>
                         <div className="item">
-                            <img src={peanutButter} alt="Image" /> 
+                            <img src={peanutButter} alt="baking img"/> 
                             <h5>Peanut Butter and Chocolate Cake</h5>
                         </div>
                         <div className="item">
-                            <img src={mangoLassi} alt="Image"/> 
+                            <img src={mangoLassi} alt="baking img"/> 
                             <h5>Mango Lassi Cheesecake</h5>
                         </div>
                         <div className="item">
-                            <img src={vdayCupcakes} alt="Image" /> 
+                            <img src={vdayCupcakes} alt="baking img"/> 
                             <h5>Valentine's Day Cupcakes</h5>
                         </div>
                         <div className="item">
-                            <img src={turkeyCupcakes} alt="Image" /> 
+                            <img src={turkeyCupcakes} alt="baking img"/> 
                             <h5>Turkey Cupcakes</h5>
                         </div>
                         <div className="item">
-                            <img src={christCookies} alt="Image" /> 
+                            <img src={christCookies} alt="baking img"/> 
                             <h5>Christmas Cookies</h5>
                         </div>
                         <div className="item">
-                            <img src={springCookies} alt="Image" /> 
+                            <img src={springCookies} alt="baking img"/> 
                             <h5>Spring break cookies</h5>
                         </div>
                         <div className="item">
-                            <img src={fruitCake} alt="Image" /> 
+                            <img src={fruitCake} alt="baking img"/> 
                             <h5>Chocolate Fruit Cake</h5>
                         </div>
                         <div className="item">
-                            <img src={pinkLemonade} alt="Image" /> 
+                            <img src={pinkLemonade} alt="baking img"/> 
                             <h5>Pink Lemonade Cake</h5>
                         </div>
                     </Carousel>

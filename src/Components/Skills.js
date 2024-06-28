@@ -1,5 +1,4 @@
 import Carousel from "react-multi-carousel";
-import { Container, Col, Row } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import cadSkill from "./../images/cadSkill.png";
 import cppSkill from "./../images/cppSkill.png";
@@ -9,7 +8,6 @@ import swiftSkill from "./../images/swiftSkill.png";
 import shellScriptingSkill from "./../images/shellScriptingSkill.png";
 import x86Skill from "./../images/x86Skill.png";
 import javaSkill from "./../images/javaSkill.png";
-import leftBackground from "../images/color-sharp.png";
 
 
 export const Skills = () => {
@@ -39,39 +37,39 @@ export const Skills = () => {
                 <div className="col-12">
                 <div className="skill-bx">
                     <h2> Skills </h2>
-                    <p> yap yap yap </p>
+                    <p> I've excelled in these skills with the help of Purdue courses, online certification courses, and projects </p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
-                            <img src={cSkill} alt="Image" width="250"/> 
-                            <h5>C</h5>
+                            <img src={cSkill} alt="skill" width="250"/> 
+                            <h5>CS240, 6 certifications</h5>
                         </div>
                         <div className="item">
-                            <img src={javaSkill} alt="Image" width="250"/> 
-                            <h5>Java</h5>
+                            <img src={javaSkill} alt="skill" width="250"/> 
+                            <h5>CS180, CS251</h5>
                         </div>
                         <div className="item">
-                            <img src={pythonSkill} alt="Image" width="250"/> 
-                            <h5>Python</h5>
+                            <img src={pythonSkill} alt="skill" width="250"/> 
+                            <h5>CS380, 1 certification</h5>
                         </div>
                         <div className="item">
-                            <img src={swiftSkill} alt="Image" width="250"/> 
-                            <h5>Swift</h5>
+                            <img src={swiftSkill} alt="skill" width="250"/> 
+                            <h5>CS307</h5>
                         </div>
                         <div className="item">
-                            <img src={shellScriptingSkill} alt="Image" width="250"/> 
-                            <h5>Shell Scripting</h5>
+                            <img src={shellScriptingSkill} alt="skill" width="250"/> 
+                            <h5>CS252</h5>
                         </div>
                         <div className="item">
-                            <img src={cppSkill} alt="Image" width="250"/> 
-                            <h5>C++</h5>
+                            <img src={cppSkill} alt="skill" width="250"/> 
+                            <h5>CS252</h5>
                         </div>
                         <div className="item">
-                            <img src={x86Skill} alt="Image" width="250"/> 
-                            <h5>X-86 Assembly Language</h5>
+                            <img src={x86Skill} alt="skill" width="250"/> 
+                            <h5>CS250</h5>
                         </div>
                         <div className="item">
-                            <img src={cadSkill} alt="Image" width="250"/> 
-                            <h5>CAD</h5>
+                            <img src={cadSkill} alt="skill" width="250"/> 
+                            <h5>3 certifications</h5>
                         </div>
                     </Carousel>
                 </div>

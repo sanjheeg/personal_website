@@ -32,10 +32,10 @@ export const Banner = () => {
             setDelta(prevDelta => prevDelta / 2)
         }
 
-        if (isDeleting && updatedText == fullText) {
+        if (isDeleting && updatedText === fullText) {
             setIsDeleting(true);
             setDelta(period);
-        } else if (isDeleting && updatedText == '') {
+        } else if (isDeleting && updatedText === '') {
             setIsDeleting(false);
             setLoopNum(loopNum+1);
             setDelta(500);
@@ -57,7 +57,7 @@ export const Banner = () => {
                         
                     </Col>
                     <Col xs={12} md={6} xl={5}>
-                        <img src={headerImg} alr="Header Img" />
+                        <img src={headerImg} alt="Header Img" />
                     </Col>
                 </Row>
             </Container>
